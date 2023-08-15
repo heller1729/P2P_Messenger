@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppNavigation.vue renders the correct markup 1`] = `
+<v-bottom-nav-stub
+  active="0"
+  app=""
+  class="app-navigation"
+  height="50"
+  value="true"
+>
+  <v-layout-stub
+    justify-center=""
+    tag="div"
+  >
+    <container-stub
+      class="app-navigation__container"
+    >
+      <v-layout-stub
+        justify-center=""
+        tag="div"
+      >
+        <v-btn-stub
+          activeclass="v-btn--active"
+          flat="true"
+          tag="button"
+          to="/home"
+          type="button"
+        >
+          <span>
+            Account
+          </span>
+           
+          <v-icon-stub
+            size="20"
+          >
+            mdi-wallet
+          </v-icon-stub>
+        </v-btn-stub>
+         
+        <v-btn-stub
+          activeclass="v-btn--active"
+          flat="true"
+          tag="button"
+          to="/chats"
+          type="button"
+        >
+          <span>
+            Chats
+          </span>
+           
+          <v-badge-stub
+            color="primary"
+            overlap="true"
+            transition="fab-transition"
+            value="true"
+          >
+            <!---->
+             
+            <v-icon-stub
+              size="20"
+            >
+              mdi-forum
+            </v-icon-stub>
+          </v-badge-stub>
+        </v-btn-stub>
+         
+        <v-btn-stub
+          activeclass="v-btn--active"
+          flat="true"
+          tag="button"
+          to="/options"
+          type="button"
+        >
+          <span>
+            Settings
+          </span>
+           
+          <v-icon-stub
+            size="20"
+          >
+            mdi-settings
+          </v-icon-stub>
+        </v-btn-stub>
+      </v-layout-stub>
+    </container-stub>
+  </v-layout-stub>
+</v-bottom-nav-stub>
+`;

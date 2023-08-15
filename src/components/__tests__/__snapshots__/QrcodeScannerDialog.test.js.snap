@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QrcodeScannerDialog.vue renders the correct markup 1`] = `
+<v-dialog-stub
+  class="qrcode-scanner-dialog"
+  maxwidth="none"
+  origin="center center"
+  transition="dialog-transition"
+  width="500"
+>
+  <v-card-stub
+    class="qrcode-scanner-dialog"
+  >
+    <v-layout-stub
+      align-center=""
+      class="pa-5"
+      justify-center=""
+      tag="div"
+    >
+      <div
+        class="a-text-header"
+      >
+        Waiting for camera…
+      </div>
+       
+      <v-progress-circular-stub
+        class="ml-3"
+        color="primary"
+        indeterminate="true"
+        rotate="0"
+        size="32"
+        value="0"
+        width="4"
+      />
+    </v-layout-stub>
+     
+    <v-layout-stub
+      row=""
+      tag="div"
+      wrap=""
+    >
+      <v-flex-stub
+        tag="div"
+        xs12=""
+      >
+        <div
+          class="qrcode-scanner-dialog__camera"
+        >
+          <video />
+           
+          <!---->
+        </div>
+      </v-flex-stub>
+       
+      <v-flex-stub
+        class="pa-4"
+        tag="div"
+        xs12=""
+      >
+        <h3
+          class="a-text-regular text-xs-center"
+        >
+          
+          Hold your device steady for 2-3 seconds to scan the QR code
+        
+        </h3>
+      </v-flex-stub>
+    </v-layout-stub>
+     
+    <!---->
+     
+    <v-divider-stub
+      class="a-divider"
+    />
+     
+    <v-card-actions-stub>
+      <v-spacer-stub />
+       
+      <v-btn-stub
+        activeclass="v-btn--active"
+        class="a-btn-regular"
+        flat="true"
+        tag="button"
+        type="button"
+      >
+        
+        Close
+      
+      </v-btn-stub>
+    </v-card-actions-stub>
+  </v-card-stub>
+</v-dialog-stub>
+`;
